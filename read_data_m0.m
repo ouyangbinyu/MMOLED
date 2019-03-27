@@ -153,6 +153,6 @@ for loopi = 1:length(fid_dir_all)
     end
     k1 = k1+k;
 end
-
+%这里是做的第二次修改
  save(['/data1/csj/data_2000/','350_m0_noise_6e7_035_16_only_T2.mat'], 'inpute','labels','mask','-v7.3')  
 %  close all;
